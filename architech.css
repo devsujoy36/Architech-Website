@@ -15,7 +15,6 @@
     font-weight: 600;
     cursor: pointer;
     border: 0;
-
 }
 
 .btn-primary:hover {
@@ -50,9 +49,6 @@ nav {
 
 }
 
-
-
-
 nav>ul {
     display: flex;
 }
@@ -73,8 +69,6 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    /* background-color: #727272;
-    color: white; */
     background-color: #6a0eff;
     transition: .2s;
     color: #fff;
@@ -138,8 +132,6 @@ main {
     font-weight: normal;
 }
 
-.of-our {}
-
 .teams-title .text-feature {
     color: #FF900E;
     font-weight: 700;
@@ -190,6 +182,41 @@ main {
     width: 165px;
 }
 
+/* feature section styles */
+.features{
+    display: flex;
+    margin-top: 100px;
+    gap: 140px;
+}
+.features .card{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06)  ;
+    border-radius: 8px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.features .section-title{
+    border-left: 5px solid #FF900E ;
+    padding-left: 20px;
+}
+
+.ten-year-badge{
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: white;
+    width: 342px;
+    padding: 42px;
+
+}
+.ten-year-badge h2{
+    font-size: 4rem;
+    
+
+}
+
+
+
+
 /* Responsive media quearies */
 /* mobile devices  */
 @media screen and (max-width:576px) {
@@ -225,6 +252,9 @@ main {
     }
 
 }
+
+
+
 
 /* tablet or medium devices */
 @media screen and (min-width:576px) and (max-width:960px) {
