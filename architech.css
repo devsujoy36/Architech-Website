@@ -28,6 +28,11 @@
     color: #727272;
 }
 
+.section-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
 
 
 
@@ -45,11 +50,8 @@ nav {
 
 }
 
-.nav-title {
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313;
-}
+
+
 
 nav>ul {
     display: flex;
@@ -111,6 +113,7 @@ main {
     margin: 70px auto;
 }
 
+/* teams section styles start */
 .teams-container {
     display: flex;
     align-items: center;
@@ -141,6 +144,12 @@ main {
     color: #FF900E;
     font-weight: 700;
 }
+
+/* feature section styles start  */
+
+
+
+
 
 
 /* Responsive media quearies */
