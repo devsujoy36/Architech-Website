@@ -146,33 +146,49 @@ main {
 }
 
 /* facts section styles start  */
-.facts-card-container{
+.facts-card-container {
     display: flex;
     justify-content: space-around;
 }
-.facts-card-container .card{
+
+.facts-card-container .card {
     border-radius: 8px;
     border: 1px solid #FF900E;
     text-align: center;
     padding: 30px;
-    
+
 }
-.facts-card-container .card-title{
+
+.facts-card-container .card-title {
     font-weight: 600;
     font-size: 1.25rem;
     margin-top: 5px;
 
 }
-.facts-card-container .card-stats{
+
+.facts-card-container .card-stats {
     font-size: 2.8rem;
     color: #424242;
     margin: 10px 0;
 
 }
 
+/* sponsors styles */
+.sponsors {
+    text-align: center;
+}
 
+.sponsors-img-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
 
-
+.sponsors-img-container img {
+    width: 165px;
+}
 
 /* Responsive media quearies */
 /* mobile devices  */
@@ -184,16 +200,30 @@ main {
     nav {
         flex-direction: column;
     }
-    .teams-container{
+
+    .teams-container {
         flex-direction: column-reverse;
         padding: 0 20px;
     }
-    .teams-content{
+
+    .teams-content {
         margin-bottom: 50px;
     }
+
     .teams-img-container {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .facts-card-container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .sponsors-img-container {
+        flex-direction: column;
+    }
+
 }
 
 /* tablet or medium devices */
@@ -205,16 +235,29 @@ main {
     nav {
         flex-direction: column;
     }
-    .teams-container{
+
+    .teams-container {
         flex-direction: column-reverse;
         padding: 0 20px;
 
     }
-    .teams-content{
+
+    .teams-content {
         margin-bottom: 50px;
     }
+
     .teams-img-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .facts-card-container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .sponsors-img-container {
+        flex-direction: column;
     }
 
 }
