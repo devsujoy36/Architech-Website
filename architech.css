@@ -17,11 +17,12 @@
     border: 0;
 
 }
-.btn-primary:hover{
-    background-color: white;
-    
-    color: #FF900E;
-    
+
+.btn-primary:hover {
+    background-color: #6a0eff;
+    transition: .3s;
+    color: #fff;
+
 
 }
 
@@ -62,9 +63,13 @@ nav ul li a {
     border-radius: 5px;
     border: none;
 }
+
 nav ul li a:hover {
-    background-color: #727272;
-    color: white;
+    /* background-color: #727272;
+    color: white; */
+    background-color: #6a0eff;
+    transition: .2s;
+    color: #fff;
 }
 
 /* banner styles */
@@ -92,6 +97,11 @@ nav ul li a:hover {
 }
 
 
+
+
+
+
+
 /* Responsive media quearies */
 /* mobile devices  */
 @media screen and (max-width:576px) {
@@ -113,4 +123,44 @@ nav ul li a:hover {
     nav {
         flex-direction: column;
     }
+}
+
+/* main styles */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.teams-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.teams-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.teams-content {
+    padding: 0 70px;
+}
+
+.teams-title {
+    font-size: 2.8rem;
+}
+
+.teams-title .quick-list {
+    color: #727272;
+    font-weight: normal;
+}
+
+.of-our {
+
+}
+
+.teams-title .text-feature {
+    color: #FF900E;
+    font-weight: 700;
 }
